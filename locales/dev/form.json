@@ -1,0 +1,9 @@
+{
+  "login": {
+    "userLogin": "Username or email",
+    "userPassword": "Password",
+    "signup": "Sign-up",
+    "resetPassword": "Reset password",
+    "loginButton": "Log In"
+  }
+}

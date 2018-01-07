@@ -1,0 +1,37 @@
+env:
+  browser: true
+  es6: true
+extends:
+  - airbnb-base
+parser: babel-eslint
+parserOptions:
+  ecmaVersion: 2017
+  ecmaFeatures:
+    jsx: true
+    experimentalObjectRestSpread: true
+  sourceType: module
+rules:
+  brace-style:
+    - error
+    - stroustrup
+  indent:
+    - error
+    - 4
+    - SwitchCase: 1
+  linebreak-style:
+    - error
+    - unix
+
+  max-len:
+    - error
+    - 120
+
+  no-console:
+    - off
+
+  no-use-before-define:
+    - off
+
+  quotes:
+    - error
+    - single
